@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #4798bb;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Navigation Menu Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #25497a;
+    font-weight: bold;
+}
+
+
+/* Footer Styles (if needed later) */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px; /* Increase padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.button1 {
+    background-color: #8eecca;
+    padding: 15px 30px; /* Green */
+
+} 
+
+.button1:hover {
+    background-color: #2ec18b;
+    color: white;
+}
+
+.button2 {
+    background-color: rgb(114, 228, 248);
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #218db0;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button3 {
+    background-color: rgb(178, 170, 248);
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+}
+
+.button3:hover {
+    background-color: rgb(104, 94, 189);
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+}
+
+
+
+.button4 {
+    background-color: rgb(255, 206, 253);
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+
+.button4:hover{
+    background-color: rgb(157, 62, 137);
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid rgb(255, 206, 253);
+    border-radius: 12px;
+
+}
+
+
+
+div {
+    width: 300px rgb(221, 252, 183);
+    height: 50px rgb(183, 221, 252);
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(252, 183, 221);
+    padding: 50px;
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(252, 183, 237);
+    /* Background color for the container */
+    border: 2px solid rgb(176, 141, 241);
+    border-radius: 12px;
+}
